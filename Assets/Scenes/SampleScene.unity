@@ -213,7 +213,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -4359,9 +4359,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2613973660150896473, guid: ff943a497fa35f241a9f7b982da588fc, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613973660150896473, guid: ff943a497fa35f241a9f7b982da588fc, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3261244128395882110, guid: ff943a497fa35f241a9f7b982da588fc, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3717065628937743671, guid: ff943a497fa35f241a9f7b982da588fc, type: 3}
+      propertyPath: m_Size.y
+      value: 0.0079251975
+      objectReference: {fileID: 0}
+    - target: {fileID: 3717065628937743671, guid: ff943a497fa35f241a9f7b982da588fc, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.16106471
+      objectReference: {fileID: 0}
+    - target: {fileID: 3859826823580013909, guid: ff943a497fa35f241a9f7b982da588fc, type: 3}
+      propertyPath: collisionOffset
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 8041323361589632079, guid: ff943a497fa35f241a9f7b982da588fc, type: 3}
       propertyPath: m_RootOrder
