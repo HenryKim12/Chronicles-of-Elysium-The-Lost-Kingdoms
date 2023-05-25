@@ -71,6 +71,7 @@ public class PlayerController : MonoBehaviour
             }
         } else {
             // Can't move if theres no direction to move in
+            print("blocked");
             return false;
         }
     }
@@ -99,5 +100,10 @@ public class PlayerController : MonoBehaviour
 
     public void UnlockMovement() {
         canMove = true;
+    }
+
+    public void StopAttack() {
+        UnlockMovement();
+        swordAttack.StopAttack();
     }
 }
